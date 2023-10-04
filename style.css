@@ -7,8 +7,8 @@ body {
 
 .box {
     display: grid;
-    place-items: center; /* Center the content vertically and horizontally */
-    height: 80vh; /* Adjust to your desired height */
+    place-items: center; 
+    height: 80vh; 
 }
 
 .textbox {
@@ -32,10 +32,9 @@ body {
     border: 1px solid black;
 }
 
-/* Responsive Grid Layout */
 @media screen and (max-width: 768px) {
     .box {
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-columns: repeat(2, 1fr);
         margin: 0;
         padding: 0;
         min-width: 1vh;
@@ -44,7 +43,7 @@ body {
         grid-column: span 2;
     }
     .textbox {
-        grid-column: span 2; /* Span both columns */
+        grid-column: span 2; 
         padding: 5vh;
         border: 2px solid black;
         background-color: #0e6a6a;
