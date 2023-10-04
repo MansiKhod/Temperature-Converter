@@ -31,6 +31,9 @@ body {
     padding: 1vh;
     border: 1px solid black;
 }
+.btn:hover{
+        background-color: #e2f111;
+    }
 
 @media screen and (max-width: 768px) {
     .box {
